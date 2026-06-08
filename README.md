@@ -119,15 +119,15 @@ Example:
 
 ### CloudWatch Logs
 
-![CloudWatch Logs](screenshots/cloudwatch_log_events.png)
+![CloudWatch Logs](screenshots/cloudwatch_log_streams.png)
 
 ### S3 Incident Storage
 
-![S3 Storage](screenshots/s3_incident_storage_created_1.png)
+![S3 Storage](screenshots/s3_incident__storage_created_1.png)
 
 ### SNS Email Notification
 
-![SNS Notification](screenshots/sns_email1.png)
+![SNS Notification](screenshots/sns_email_1.png)
 
 ---
 
