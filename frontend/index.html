@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Incident Portal</title>
+</head>
+
+<body>
+
+<h2>Submit Incident</h2>
+
+<form id="incidentForm">
+
+<label>Service</label><br>
+<input type="text" id="service"><br><br>
+
+<label>Severity</label><br>
+<select id="severity">
+    <option>Low</option>
+    <option>Medium</option>
+    <option>High</option>
+</select><br><br>
+
+<label>Description</label><br>
+<textarea id="description"></textarea><br><br>
+
+<button type="submit">
+Submit Incident
+</button>
+
+</form>
+
+<script>
+
+document.getElementById("incidentForm")
+.addEventListener("submit", async function(e){
+
+    e.preventDefault();
+
+    await fetch(
+        "https://fr48xx40b1.execute-api.eu-west-2.amazonaws.com/prod/incident",
+        {
+            method: "POST",
+
+            headers: {
+                "Content-Type": "application/json"
+            },
+
+            body: JSON.stringify({
+                service: document.getElementById("service").value,
+                severity: document.getElementById("severity").value,
+                description: document.getElementById("description").value
+            })
+        }
+    );
+
+    alert("Incident Submitted");
+
+});
+
+</script>
+
+</body>
+</html>
