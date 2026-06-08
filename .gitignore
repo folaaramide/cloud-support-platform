@@ -1,18 +1,16 @@
 # Terraform
-
+.terraform/
 terraform/.terraform/
-terraform/*.tfstate
-terraform/*.tfstate.backup
 
-# Terraform variables
+*.tfstate
+*.tfstate.backup
 
+terraform.tfvars
 terraform/terraform.tfvars
 
 # Python
-
 __pycache__/
 
 # OS files
-
 .DS_Store
 Thumbs.db
