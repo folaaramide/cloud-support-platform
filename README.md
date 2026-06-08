@@ -40,7 +40,7 @@ CloudWatch captures logs generated during processing.
 
 ### Architecture Diagram
 
-![Architecture Diagram](diagrams/architecture.png)
+![Architecture Diagram](diagrams/architecture-v1.png)
 
 ---
 
@@ -111,23 +111,23 @@ Example:
 
 ### Incident Submission Portal
 
-![Portal](screenshots/website-submission.jpg)
+![Portal](screenshots/user_request-submission1.jpg)
 
 ### Terraform Deployment
 
-![Terraform Apply](screenshots/terraform-apply.jpg)
+![Terraform Apply](screenshots/terraform-apply_refactored.jpg)
 
 ### CloudWatch Logs
 
-![CloudWatch Logs](screenshots/cloudwatch-logs.jpg)
+![CloudWatch Logs](screenshots/cloudwatch_log_events.jpg)
 
 ### S3 Incident Storage
 
-![S3 Storage](screenshots/s3-object-created.jpg)
+![S3 Storage](screenshots/s3_incident_storage_created1.jpg)
 
 ### SNS Email Notification
 
-![SNS Notification](screenshots/sns-email.jpg)
+![SNS Notification](screenshots/sns_email.jpg)
 
 ---
 
