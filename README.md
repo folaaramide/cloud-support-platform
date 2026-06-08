@@ -111,7 +111,7 @@ Example:
 
 ### Incident Submission Portal
 
-![Portal](screenshots/user_request_submission1.png)
+![Portal](screenshots/user_request_submission_1.png)
 
 ### Terraform Deployment
 
@@ -123,7 +123,7 @@ Example:
 
 ### S3 Incident Storage
 
-![S3 Storage](screenshots/s3_incident__storage_created_1.png)
+![S3 Storage](screenshots/s3_incident_storage__created_1.png)
 
 ### SNS Email Notification
 
