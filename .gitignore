@@ -10,7 +10,7 @@ terraform/terraform.tfvars
 
 # Python
 
-**pycache**/
+__pycache__/
 
 # OS files
 
