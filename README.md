@@ -111,23 +111,23 @@ Example:
 
 ### Incident Submission Portal
 
-![Portal](screenshots/user_request-submission1.jpg)
+![Portal](screenshots/user_request-submission1.png)
 
 ### Terraform Deployment
 
-![Terraform Apply](screenshots/terraform-apply_refactored.jpg)
+![Terraform Apply](screenshots/terraform-apply_refactored.png)
 
 ### CloudWatch Logs
 
-![CloudWatch Logs](screenshots/cloudwatch_log_events.jpg)
+![CloudWatch Logs](screenshots/cloudwatch_log_events.png)
 
 ### S3 Incident Storage
 
-![S3 Storage](screenshots/s3_incident_storage_created1.jpg)
+![S3 Storage](screenshots/s3_incident_storage_created1.png)
 
 ### SNS Email Notification
 
-![SNS Notification](screenshots/sns_email.jpg)
+![SNS Notification](screenshots/sns_email.png)
 
 ---
 
